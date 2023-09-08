@@ -1,0 +1,35 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 2rem; /* Adjust this value based on your footer height */
+  padding-bottom: 2rem; /* Adjust this value based on your footer height */
+}
+
+.Footer {
+  background-color: #282c34;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.inner-footer-style {
+  background-color: #dfc74c;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  color: #dfc74c;
+}

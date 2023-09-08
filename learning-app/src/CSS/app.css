@@ -1,0 +1,152 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  /* width: 100%;
+  height: 100%; */
+  /* background-color: rgba(132, 132, 177, 0.393); */
+  
+  }
+  .App-style { 
+    /* width: 100%;
+    
+    min-height: 10vh;
+    
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin); */
+  }
+  .App-content{
+    /* width: 100%; 
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  */
+  }
+  
+  #topic {
+    background-color: red;
+  }
+  @keyframes text-spin {
+    from{
+      transform: rotate(0deg);
+  
+    }
+    to {
+      transform: rotate(90deg);
+  
+    }
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center 
+  }
+  
+  .btn{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 5px;
+    margin: 5px;
+    background: #7a78dd;
+    color: white;
+  }
+  .values{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 55px;
+    margin: 10px;
+  }
+.data{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  
+}
+.disply_data{
+  display: flex;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  padding: 0px 9px 0px 9px;
+  font-size: small;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.table{
+  background-color: grey;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.772);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  margin-bottom: 200px;
+  
+}
+.table_head{
+  background-color: #7a78dd;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.772);
+  padding: 20px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden; 
+}
+/* CSS for the container div */
+.new_app_button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+/* CSS for the button */
+.new_app_button button {
+  padding: 10px 20px;
+  
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #2196f3;
+}
+
+.new_app_button button:hover {
+  background-color: #0d47a1;
+  
+}
+
+.ring{
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border: 0px solid #000;
+  border-radius: 50%;
+  position: absolute;
+}
+.resizable-handle {
+  background-color: transparent;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+}

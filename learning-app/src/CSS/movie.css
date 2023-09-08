@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+.main{
+  float: left;
+  padding: 0 10px;
+  flex: wrap;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  position: relative;
+  margin-bottom: 100px
+}
+.movie{
+  
+  /* contoling the box here*/
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color: rgb(149, 48, 48);
+  padding: 10px;
+  width: 250px;
+  height: 350px;
+  
+}
+
+.card{
+  flex-wrap: flex;
+  text-align: center;
+  padding: 10px;
+  width: 5%;
+  min-height: 15vh;
+  min-width: 25vh; 
+  
+}
+.card img{
+  
+  /* contoling the image*/
+  height: 200px;
+  margin-left: 45px;
+}
+.card p{
+  /* contoling the text here*/
+  margin-top: 0px;
+  font-weight: initial;
+  text-align: center;
+  font-size: calc(2px + 2vmin);
+  color: oldlace;
+}
+
+
+
