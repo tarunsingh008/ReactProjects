@@ -28,7 +28,6 @@ function App() {
     <Router>
       <div className="App">
         <Routes>
-          {/* <Route path="/" element={<MiniDrawer />} /> */}
          
           <Route path="/" element= {<Home menu={MiniDrawer}/>} /> 
 
