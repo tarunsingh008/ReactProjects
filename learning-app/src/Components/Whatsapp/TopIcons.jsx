@@ -51,9 +51,7 @@ export const TopIcons = ({ func }) => {
       sx={{
         textAlign: "left",
         marginLeft: 2.5,
-        marginTop: 0,
-        // position: "relative", // Add position relative
-        // zIndex:2,
+        marginTop: 0,        
       }}
     >
       WhatsApp
