@@ -1,7 +1,7 @@
 # ReactProjects
-Required installation after clonong the repo.
+Required installation after cloning the repo.
 ########## setting up your first react project #############
-#  pre-requisite : node should be insatlled
+#  pre-requisite : node should be installed
 #  npx create-react-app my-react-app
 # npm init -y
 # npm install react react-dom
