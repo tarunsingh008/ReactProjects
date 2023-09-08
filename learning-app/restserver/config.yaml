@@ -1,0 +1,11 @@
+# Below all host IP and PORT is currently configured for your local server. 
+# You can change it if you are deploinh it on some server.
+
+REST:
+        HOST: 127.0.0.1
+        PORT: 8080
+       
+        
+        
+
+
