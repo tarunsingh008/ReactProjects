@@ -1,5 +1,14 @@
 # ReactProjects
 Required installation after cloning the repo.
+dir tree structure
+
+learning-app
+│       ├───public
+│       └───src
+│           ├───Components
+│           │   └───Whatsapp
+│           └───CSS
+
 ########## setting up your first react project #############
 #  pre-requisite : node should be installed
 #  npx create-react-app my-react-app
