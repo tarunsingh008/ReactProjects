@@ -8,7 +8,7 @@ import MiniDrawer from "./MiniDrawer";
 import { EnterRecord } from "./EnterRecord";
 import Employee_app from "./Employee_app";
 import Movie_app from "./Movie_app";
-import { Error } from "./Error";
+import  Error from "./Error";
 import {Home} from "./Home"
 import { Nested_route } from "./Nested_route";
 import NewApp  from "./NewApp";
