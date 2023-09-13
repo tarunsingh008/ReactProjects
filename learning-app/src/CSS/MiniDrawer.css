@@ -1,0 +1,16 @@
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.menu-container {
+    background: linear-gradient(to right, #ff5733, #fbff12);
+    /* Gradient background */
+    background-size: 200% 100%;
+    animation: backgroundAnimation 10s linear infinite;
+}
