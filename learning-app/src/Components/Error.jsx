@@ -1,15 +1,6 @@
 import React from "react";
-
-import Stack from "@mui/material/Stack";
-
-import Alert from "@mui/material/Alert";
-
-import { useNavigate } from "react-router-dom";
-import { Button } from "@mui/material";
 import { Link } from 'react-router-dom';
 import "../CSS/Error.css";
-
-import HomeIcon from "@mui/icons-material/Home";
 
 const Error = ({ errorCode = 404, errorMessage = "Page not found" }) => {
   return (
